@@ -21,7 +21,7 @@ public class CarsTests extends BaseApiTest{
     @Description("Создать автомобиль с валидными данными")
     public void createValidCar() throws IOException {
 
-        File testData = new File("C:\\Projects\\Pets\\at_practics2023\\src\\test\\resources\\carsTestData.json");
+        File testData = new File("/Users/admin/Testing/PLTest/at_practics2023/src/test/resources/carsTestData.json");
 
         Response response = given()
                 .contentType(ContentType.JSON)
